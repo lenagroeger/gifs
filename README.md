@@ -1,117 +1,12 @@
-# Photoshop: Tips & Tricks & Magic Tools
-by [Lena Groeger](https://twitter.com/lenagroeger) & [Chris Canipe](https://twitter.com/ccanipe)
-
-In this session, we'll learn:
-
-1. How to automate tasks using [**Actions**](https://github.com/lenagroeger/photoshop#actions)
-2. How to create [**Droplets**](https://github.com/lenagroeger/photoshop#droplets) for Actions you use regularly
-3. How to make [**Animated Gifs**](https://github.com/lenagroeger/photoshop#animated-gif-simple-2-photo-animation) (including [multi-photo](https://github.com/lenagroeger/photoshop#animated-gif-multiple-photo-animation) and [video](https://github.com/lenagroeger/photoshop#animated-gif-video-animation) versions).
-4. How to use [**Magical Tools**](https://github.com/lenagroeger/photoshop#more-magic-in-photoshop-perspective-crop-and-content-aware-fill) like perspective crop and content-aware fill
+# Animated Gifs!!
+by [Lena Groeger](https://twitter.com/lenagroeger)
 
 
+This tutorial will teach you how to:
 
-
-##Actions##
-Do you find yourself repeating many of the same tasks again and again? You're working too hard. Make an action! In this example, we'll set up an action that converts a bunch of large files (of Oscar-nominated movie poster images) into a smaller size of 200px wide and 72px/in resolution.
-
-1. [Download this folder of images](https://github.com/lenagroeger/photoshop/blob/master/zipped/OSCARS.zip?raw=true). Open an image in the Best Picture folder: **File > Open...**
-<br>
-![](https://github.com/lenagroeger/photoshop/blob/master/screengrabs/poster1.jpg)
-
-2. Open the Actions pallette: **Window > Actions**   ![](https://github.com/lenagroeger/photoshop/blob/master/screengrabs/poster2.jpg)
-
-3. From the dropdown, select **New Action...** (Alternatively, click on the little icon that looks like a Post-It note to create a new action)  ![](https://github.com/lenagroeger/photoshop/blob/master/screengrabs/poster3.jpg)
-4. Give it a name. Let's say "200px wide", and click "Record" ![](https://github.com/lenagroeger/photoshop/blob/master/screengrabs/poster4.jpg)
-
-5. Select **Image > Image Size...**
-<br> ![](https://github.com/lenagroeger/photoshop/blob/master/screengrabs/poster5.jpg)
-6. Set the resolution to 72px and the width to 200px.
-![](https://github.com/lenagroeger/photoshop/blob/master/screengrabs/poster6.jpg)
-
-7. Still recording, go to File > Save As, and save to new folder (I've called it Best Picture New). You can also do File > Save for Web.
-
-![](https://github.com/lenagroeger/photoshop/blob/master/screengrabs/poster8.jpg)
-![](https://github.com/lenagroeger/photoshop/blob/master/screengrabs/poster7.jpg)
-
-7. At the bottom of the Actions window, hit "Stop" to stop recording.
-![](https://github.com/lenagroeger/photoshop/blob/master/screengrabs/congress10.jpg)
-
-8. Close the image without saving your changes.
-
-9. To run your script, open **File > Automate > Batch...**
-![](https://github.com/lenagroeger/photoshop/blob/master/screengrabs/poster9.jpg)
-
-10. First we need to pick which action to apply. Since we want to use the 200px action we just created, under "Play" make sure the Action "200px" is selected.
-![](https://github.com/lenagroeger/photoshop/blob/master/screengrabs/poster10.jpg)
-11. Now we need to choose which folder of images we want to apply this action to, and where we want our new images to be saved. Choose your Source folder
-(Best Picture) and Destination folder (Best Picture New).
-![](https://github.com/lenagroeger/photoshop/blob/master/screengrabs/poster11.jpg)
-
-12. Finally, make sure the "Override Action 'Save As' Command" is checked. This will make sure each file gets saved as it's own filename (and not all filed get saved as GRANDBUDAPEST.jpg)
-![](https://github.com/lenagroeger/photoshop/blob/master/screengrabs/poster13.jpg)
-
-13. Hit "OK", sit back and relax. Your photos will be ready momentarily. When the flickering Photoshop images settle, you should end up with your "Best Picture New" folder full of smaller sized images!
-![](https://github.com/lenagroeger/photoshop/blob/master/screengrabs/poster12.jpg)
-
-14. *NOTE* If you end up with an image full of empty folders or are seeing a "Save Image As" popup box when you try to apply the action, you may have missed the "Save As" step. [This might help.](http://graphicdesign.stackexchange.com/questions/6842/automatically-saving-in-a-batch-action)
-
-
-##Droplets##
-Droplets make Actions even simpler to use by making them executuable with a simple Drag and Drop.
-
-1. Select **File > Automate > Create Droplet...**
-![](https://github.com/lenagroeger/photoshop/blob/master/screengrabs/poster13b.jpg)
-
-2. The Droplet menu is much like the Batch menu. Select a location for the Droplet icon to appear, and a folder in which you'd like your files to save (I just saved my droplet to the Desktop, and picked the same Destination folder, Best Picture New.)
-
-![](https://github.com/lenagroeger/photoshop/blob/master/screengrabs/poster14.jpg)
-
-3. You should end up with a little icon like this on your Desktop. (Older versions of Photoshop used to have an actual droplet icon, no idea why they replaced it with an arrow.)
-
-![](https://github.com/lenagroeger/photoshop/blob/master/screengrabs/poster14b.jpg)
-
-3. Now, instead of going the all the trouble of selecting Batch from the Automate menu, just drag your Best Picture folder on top of the droplet icon. That's it! You're done!
-![](https://github.com/lenagroeger/photoshop/blob/master/screengrabs/poster15.jpg)
-
-
-##Droplets 2##
-Now let's apply our droplet-making skills to solve a real-life problem that you may encounter if you cover politics. I want every single member of congress's photo, but not in color – in black and white. There are 879 photos, so manually opening up each photo in Photoshop is out of the question. What to do?
-
-1. First, we need all the images. [Download them here](https://github.com/lenagroeger/photoshop/blob/master/zipped/Congress%20Photos.zip?raw=true), then open up the "Congress Photos" folder (note, this only includes the first 20 photos, if you really want all 879 [get them here](https://github.com/unitedstates/images/tree/gh-pages/congress)).
-   ![](https://github.com/lenagroeger/photoshop/blob/master/screengrabs/congress1.jpg)
-
-2. Now, open one up in Photoshop.
-
-   ![](https://github.com/lenagroeger/photoshop/blob/master/screengrabs/congress2.jpg)
-
-3. Create a new action, I'm calling mine B&W. Click Record.
-  ![](https://github.com/lenagroeger/photoshop/blob/master/screengrabs/congress4.jpg)
-
-4. Go to Image > Mode > Grayscale, and click OK. You should now have a black and white photo!
-   ![](https://github.com/lenagroeger/photoshop/blob/master/screengrabs/congress6.jpg)
-
-6. Just for fun, let's add one more step to make the photo sepia colored. Go to Image > Mode > Duotone, and select "Duotone" from the Dropdown.
-    ![](https://github.com/lenagroeger/photoshop/blob/master/screengrabs/congress7.jpg)
-
-7. Click on the white box and select a new color (I am choosing Orange)
-   ![](https://github.com/lenagroeger/photoshop/blob/master/screengrabs/congress8.jpg)
-
-8. You might need to give this new color a name, but when you hit OK it should have given your photo a nice sepia effect!
-   ![](https://github.com/lenagroeger/photoshop/blob/master/screengrabs/congress9.jpg)
-
-9. Now let's save it. File > Save for Web, and save it to a new folder (I called it Congress Photos New)
-
-10. Stop recording this action by hitting the "Stop" button
-
-   ![](https://github.com/lenagroeger/photoshop/blob/master/screengrabs/congress10.jpg)
-
-11. Now let's go straight to making a droplet. **File > Automate > Create Droplet...**
-
-12. I'll save this droplet as "B&W" to the Desktop, and select "Congress Photos New" as my destination folder.
-   ![](https://github.com/lenagroeger/photoshop/blob/master/screengrabs/congress11.jpg)
-
-13. Now I'll drag my Congress Photos folder onto the droplet, and wait for my computer to do all the work! You should end up with a bunch of newly sepia-fied images. Hurray!
-
+1. Make a simple [two-photo gif](https://github.com/lenagroeger/photoshop#animated-gif-simple-2-photo-animation) in Photoshop.
+2. Make a [multiple-photo or series gif](https://github.com/lenagroeger/photoshop#animated-gif-multiple-photo-animation) in Photoshop.
+3. Make a [video or screensharing gif](https://github.com/lenagroeger/photoshop#animated-gif-video-animation) using Photoshop & Quicktime.
 
 
 ##Animated Gif: Simple 2-Photo Animation ##
