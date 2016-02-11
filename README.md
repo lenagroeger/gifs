@@ -4,9 +4,9 @@ by [Lena Groeger](https://twitter.com/lenagroeger)
 
 This tutorial will teach you how to:
 
-1. Make a simple [two-photo gif](https://github.com/lenagroeger/photoshop#animated-gif-simple-2-photo-animation) in Photoshop.
-2. Make a [multiple-photo or series gif](https://github.com/lenagroeger/photoshop#animated-gif-multiple-photo-animation) in Photoshop.
-3. Make a [video or screensharing gif](https://github.com/lenagroeger/photoshop#animated-gif-video-animation) using Photoshop & Quicktime.
+1. Make a simple [two-photo gif](https://github.com/lenagroeger/gifs#animated-gif-simple-2-photo-animation) in Photoshop.
+2. Make a [multiple-photo or series gif](https://github.com/lenagroeger/gifs#animated-gif-multiple-photo-animation) in Photoshop.
+3. Make a [video or screensharing gif](https://github.com/lenagroeger/gifs#animated-gif-video-animation) using Photoshop & Quicktime.
 
 
 ##Animated Gif: Simple 2-Photo Animation ##
