@@ -134,25 +134,4 @@ Do you have an interactive graphic you'd like to promote on the front page? Anim
 
 
 
-##More Magic in Photoshop: Perspective Crop and Content Aware Fill ##
-
-
-1. [Download this photo](https://raw.githubusercontent.com/lenagroeger/photoshop/master/zipped/warpeace.jpg), and then open it up in Photoshop.
-![](https://github.com/lenagroeger/photoshop/blob/master/screengrabs/warpeace.jpg)
-
-2. Using the crop perspective tool this time, draw a selection on the four corners of the book cover.
-![](https://github.com/lenagroeger/photoshop/blob/master/screengrabs/perspectivetool.jpg)
-![](https://github.com/lenagroeger/photoshop/blob/master/screengrabs/perspectivecropping.jpg)
-Crazy, right??
-![](https://github.com/lenagroeger/photoshop/blob/master/screengrabs/covercorrect.jpg)
-
-3. Now, rotate the canvas 90&#8451; clockwise. Go to Image > Image Rotation > 90&#8451; CW
-![](https://github.com/lenagroeger/photoshop/blob/master/screengrabs/90cw.jpg)
-4. Good, now it's right side up. Now, say we want to get rid of the "and" in War and Peace (scandalous, I know). Select the "and" with the selection tool so it looks like this.
-![](https://github.com/lenagroeger/photoshop/blob/master/screengrabs/selectand.jpg)
-5. Go to Edit > Fill, and do a Content-Aware fill.
-![](https://github.com/lenagroeger/photoshop/blob/master/screengrabs/noand.jpg)
-6. MIND BLOWN
-7. Contemplate all the other uses of the perspective crop tool and content-aware fill tool.
-
 
