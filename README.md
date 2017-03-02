@@ -77,20 +77,20 @@ This tutorial will teach you how to:
 ##Animated Gifs: Command Line ##
 
 1. We can also use [ImageMagick](https://www.imagemagick.org/script/index.php) to create gifs from a folder of images right on the command line.
-<br>
+
 ![](https://github.com/lenagroeger/gifs/blob/master/screengrabs/imagemagick.jpg)
 
 2. We're going to take a bunch of SVG's from a project I worked on called [Lost Cause](http://projects.propublica.org/graphics/lost-cause), and convert a bunch of historical maps into a gif.
-<br>
-![](https://github.com/lenagroeger/gifs/blob/master/screengrabs/lost_cause_graphic2.jpg)
+
+![](https://github.com/lenagroeger/gifs/blob/master/screengrabs/lost_cause_graphic.jpg)
 
 
 3. First [install ImageMagick](https://www.imagemagick.org/script/download.php). I use `brew install ImageMagick`, but take your pick.
 
 4. Then you can start using their [command line tools](https://www.imagemagick.org/script/command-line-processing.php).
 
-5. I like using the `convert` command for making gifs. Navigate to a folder full of images, in this case I have a folder called "lost_cause_svgs" on my Desktop.
-6. The command is as simple as `convert *.svg lost_cause.gif`, which goes through every .svg file in my folder and combines them all into a gif called "lost_cause.gif".
+5. I like using the `convert` command for making gifs. Navigate to a folder full of images, in this case I have a folder called `lost_cause_svgs` on my Desktop.
+6. The command is as simple as `convert *.svg lost_cause.gif`, which goes through every .svg file in my folder and combines them all into a gif called `lost_cause.gif`.
 ![](https://github.com/lenagroeger/gifs/blob/master/screengrabs/lost_cause.gif)
 
 7. Magick! If I want to slow down the gif, I can add a delay. `convert *.svg -set delay 50 lost_cause.gif`
