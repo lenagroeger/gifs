@@ -91,7 +91,8 @@ This tutorial will teach you how to:
 
 5. I like using the `convert` command for making gifs. Navigate to a folder full of images, in this case I have a folder called `lost_cause_svgs` on my Desktop.
 6. The command is as simple as `convert *.svg lost_cause.gif`, which goes through every .svg file in my folder and combines them all into a gif called `lost_cause.gif`.
-![](https://github.com/lenagroeger/gifs/blob/master/screengrabs/lost_cause.gif)
+
+<img src="https://github.com/lenagroeger/gifs/blob/master/screengrabs/lost_cause.gif" width="480">
 
 7. Magick! If I want to slow down the gif, I can add a delay. `convert *.svg -set delay 50 lost_cause.gif`.
 
