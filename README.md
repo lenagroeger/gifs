@@ -93,10 +93,12 @@ This tutorial will teach you how to:
 6. The command is as simple as `convert *.svg lost_cause.gif`, which goes through every .svg file in my folder and combines them all into a gif called `lost_cause.gif`.
 ![](https://github.com/lenagroeger/gifs/blob/master/screengrabs/lost_cause.gif)
 
-7. Magick! If I want to slow down the gif, I can add a delay. `convert *.svg -set delay 50 lost_cause.gif`
-![](https://github.com/lenagroeger/gifs/blob/master/screengrabs/lost_cause_slow2.gif)
+7. Magick! If I want to slow down the gif, I can add a delay. `convert *.svg -set delay 50 lost_cause.gif`.
 
-8. That's a pretty basic usage, but go check out [all the other options](https://www.imagemagick.org/script/convert.php) to customize your gif.
+8. Once you have your gif, you can then always bring it into Photoshop and tweak it, we ended up adding a header and using this gif for our social promotion of the graphic.
+![](https://github.com/lenagroeger/gifs/blob/master/screengrabs/ElectionsGif.gif)
+
+8. That's a pretty basic usage of ImageMagick's `convert`, but go check out [all the other options](https://www.imagemagick.org/script/convert.php) to customize your gif.
 
 ##Animated Gifs: Other Resources ##
 
