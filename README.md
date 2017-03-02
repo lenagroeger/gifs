@@ -77,10 +77,10 @@ This tutorial will teach you how to:
 ##Animated Gifs: Command Line ##
 
 1. We can also use [ImageMagick](https://www.imagemagick.org/script/index.php) to create gifs from a folder of images right on the command line.
-![](https://github.com/lenagroeger/gifs/blob/master/screengrabs/imagemagick.jpg)
+![](https://github.com/lenagroeger/gifs/blob/master/screengrabs/imagemagick2.jpg)
 
 2. We're going to take a bunch of SVG's from a project I worked on called [Lost Cause](http://projects.propublica.org/graphics/lost-cause), and convert a bunch of historical maps into a gif.
-![](https://github.com/lenagroeger/gifs/blob/master/screengrabs/lost_cause_graphic.jpg)
+![](https://github.com/lenagroeger/gifs/blob/master/screengrabs/lost_cause_graphic2.jpg)
 
 
 3. First [install ImageMagick](https://www.imagemagick.org/script/download.php). I use `brew install ImageMagick`, but take your pick.
@@ -92,7 +92,7 @@ This tutorial will teach you how to:
 ![](https://github.com/lenagroeger/gifs/blob/master/screengrabs/lost_cause.gif)
 
 7. Magick! If I want to slow down the gif, I can add a delay. `convert *.svg -set delay 50 lost_cause.gif`
-![](https://github.com/lenagroeger/gifs/blob/master/screengrabs/lost_cause_slow.gif)
+![](https://github.com/lenagroeger/gifs/blob/master/screengrabs/lost_cause_slow2.gif)
 
 8. That's a pretty basic usage, but go check out [all the other options](https://www.imagemagick.org/script/convert.php) to customize your gif.
 
