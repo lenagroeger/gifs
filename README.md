@@ -1,4 +1,4 @@
-# Animated Gifs!!
+# Data Gifs!!
 by [Lena Groeger](https://twitter.com/lenagroeger)
 
 
@@ -6,7 +6,7 @@ This tutorial will teach you how to:
 
 1. Make a [multiple-photo or series gif](https://github.com/lenagroeger/gifs#animated-gif-multiple-photo-animation) in Photoshop.
 2. Make a [video or screensharing gif](https://github.com/lenagroeger/gifs#animated-gif-video-animation) using Photoshop & Quicktime.
-3. Make a gif [from the command line]https://github.com/lenagroeger/gifs#animated-gif-command-line)
+3. Make a gif [from the command line](https://github.com/lenagroeger/gifs#animated-gif-command-line)
 
 ##Animated Gif: Multiple Photo Animation ##
 
@@ -74,5 +74,13 @@ This tutorial will teach you how to:
 
 
 ##Animated Gif: Command Line ##
+
+1. We can also use [ImageMagick](https://www.imagemagick.org/script/index.php) to create gifs from a folder of images right on the command line.
+![](https://github.com/lenagroeger/photoshop/blob/master/screengrabs/imagemagick.gif)
+
+2. First [install ImageMagick](https://www.imagemagick.org/script/download.php). I use `brew install ImageMagick`, but take your pick.
+
+3. Then you can start using their [command line tools](https://www.imagemagick.org/script/command-line-processing.php).
+
 
 
