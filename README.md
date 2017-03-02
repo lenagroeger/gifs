@@ -12,21 +12,21 @@ This tutorial will teach you how to:
 ##Animated Gifs: Multiple Photo Animation ##
 
 1. Let's say you want to do more than animate between 2 photos, you want to show a progression of many photos, like [this example from the Wall Street Journal.](http://graphics.wsj.com/ukraine-rebel-maps/)
-2. Let's try it! [Download this folder](https://github.com/lenagroeger/photoshop/blob/master/zipped/Ukraine.zip?raw=true) and open one of the images from the Ukraine folder in Photoshop.
+2. Let's try it! [Download this folder](https://github.com/lenagroeger/gifs/blob/master/zipped/Ukraine.zip?raw=true) and open one of the images from the Ukraine folder in Photoshop.
 3. Drag and drop your other images onto the stage. This will bring them into your file as separate layers.<br>
-  ![](https://github.com/lenagroeger/photoshop/blob/master/screengrabs/GifLayers.png)<br>
+  ![](https://github.com/lenagroeger/gifs/blob/master/screengrabs/GifLayers.png)<br>
 
 4. Select **Window > Timeline** from the toolbar to open up a new panel in Photoshop.
 5. From the Timeline panel, click on "Create Frame Animation".
 7. From the dropdown in the upper right of the Timeline window, select "Make Frames from Layers"
- ![](https://github.com/lenagroeger/photoshop/blob/master/screengrabs/FramesFromLayers.png)
+ ![](https://github.com/lenagroeger/gifs/blob/master/screengrabs/FramesFromLayers.png)
 
 8. Make sure your frames are in the correct sequence, then set the duration for which you'd like each to display.<br>
-  ![](https://github.com/lenagroeger/photoshop/blob/master/screengrabs/SetFrameDurations.png)
+  ![](https://github.com/lenagroeger/gifs/blob/master/screengrabs/SetFrameDurations.png)
 
 9. Select **File > Save for Web**
 10. Select Gif as your save format. At the bottom of the window, you'll also be able to set the number of times you'd like the animation to loop. For a homepage promo, it might not be appropriate to loop infinitely, but we'll pick "Forever" for now.
-  ![](https://github.com/lenagroeger/photoshop/blob/master/screengrabs/ukraine.gif)
+  ![](https://github.com/lenagroeger/gifs/blob/master/screengrabs/ukraine.gif)
 
 11. Save and you're done. Woot!
 
@@ -38,49 +38,49 @@ This tutorial will teach you how to:
 1. Sometimes you want to convert a short segment of a video to a gif, whether that's a YouTube clip or a screen recording. You can do this easily with QuickTime + Photoshop. Let's try it out on  [this Guardian interactive on measles](http://www.theguardian.com/society/ng-interactive/2015/feb/05/-sp-watch-how-measles-outbreak-spreads-when-kids-get-vaccinated).</a>
 
 2. Open up QuickTime, and select "New Screen Recording."
-![](https://github.com/lenagroeger/photoshop/blob/master/screengrabs/screengif1.jpg)
+![](https://github.com/lenagroeger/gifs/blob/master/screengrabs/screengif1.jpg)
 
 3. A little popup box will appear, click on the Red Record button to start recording.
-![](https://github.com/lenagroeger/photoshop/blob/master/screengrabs/screengif2.jpg)
+![](https://github.com/lenagroeger/gifs/blob/master/screengrabs/screengif2.jpg)
 
 4. But that doesn't actually start the recording, you have to select a viewport for your recording. Go ahead and do that. Then click "Start Recording."
-![](https://github.com/lenagroeger/photoshop/blob/master/screengrabs/screengif3.jpg)
+![](https://github.com/lenagroeger/gifs/blob/master/screengrabs/screengif3.jpg)
 
 5. After some seconds, hit the very difficult to find "Stop" button at the top of your screen.<br>
-![](https://github.com/lenagroeger/photoshop/blob/master/screengrabs/screengif4.jpg)
+![](https://github.com/lenagroeger/gifs/blob/master/screengrabs/screengif4.jpg)
 
 6. Now save that movie recording to your Desktop.<br>
-![](https://github.com/lenagroeger/photoshop/blob/master/screengrabs/screengif3b.jpg)
+![](https://github.com/lenagroeger/gifs/blob/master/screengrabs/screengif3b.jpg)
 
 7. Open up Photoshop, select Import > Video Frames to Layers.
-![](https://github.com/lenagroeger/photoshop/blob/master/screengrabs/screengif5.jpg)
+![](https://github.com/lenagroeger/gifs/blob/master/screengrabs/screengif5.jpg)
 
 8. You'll get a little slider where you can select precisely the seconds of video you want for your gif (smaller is better for loading times).
-![](https://github.com/lenagroeger/photoshop/blob/master/screengrabs/screengif6.jpg)
+![](https://github.com/lenagroeger/gifs/blob/master/screengrabs/screengif6.jpg)
 
 9. You should end up with this:<br>
-![](https://github.com/lenagroeger/photoshop/blob/master/screengrabs/screengif7.jpg)
+![](https://github.com/lenagroeger/gifs/blob/master/screengrabs/screengif7.jpg)
 
 10. See all those layers? Those are all the frames of your little gif!<br>
-![](https://github.com/lenagroeger/photoshop/blob/master/screengrabs/screengif8.jpg)
+![](https://github.com/lenagroeger/gifs/blob/master/screengrabs/screengif8.jpg)
 
 11. Ok, let's save this thing. Go to File > Save for Web<br>
-![](https://github.com/lenagroeger/photoshop/blob/master/screengrabs/screengif9.jpg)
+![](https://github.com/lenagroeger/gifs/blob/master/screengrabs/screengif9.jpg)
 
 12. Make sure you have "Gif" as the format type, and that Looping Options are set to Forever. Save it!<br>
-![](https://github.com/lenagroeger/photoshop/blob/master/screengrabs/screengif10.jpg)
+![](https://github.com/lenagroeger/gifs/blob/master/screengrabs/screengif10.jpg)
 
 13. Now, open up that gif in a browser. Happy giffing!<br>
-![](https://github.com/lenagroeger/photoshop/blob/master/screengrabs/measles2.gif)
+![](https://github.com/lenagroeger/gifs/blob/master/screengrabs/measles2.gif)
 
 
 ##Animated Gifs: Command Line ##
 
 1. We can also use [ImageMagick](https://www.imagemagick.org/script/index.php) to create gifs from a folder of images right on the command line.
-![](https://github.com/lenagroeger/photoshop/blob/master/screengrabs/imagemagick.gif)
+![](https://github.com/lenagroeger/gifs/blob/master/screengrabs/imagemagick.gif)
 
 2. We're going to take a bunch of SVG's from a project I worked on called [Lost Cause](http://projects.propublica.org/graphics/lost-cause), and convert a bunch of historical maps into a gif.
-![](https://github.com/lenagroeger/photoshop/blob/master/screengrabs/lost_cause_graphic.jpg)
+![](https://github.com/lenagroeger/gifs/blob/master/screengrabs/lost_cause_graphic.jpg)
 
 
 3. First [install ImageMagick](https://www.imagemagick.org/script/download.php). I use `brew install ImageMagick`, but take your pick.
@@ -88,13 +88,13 @@ This tutorial will teach you how to:
 4. Then you can start using their [command line tools](https://www.imagemagick.org/script/command-line-processing.php).
 
 5. I like using the `convert` command for making gifs. Navigate to a folder full of images, in this case I have a folder called "lost_cause_svgs" on my Desktop.
-![](https://github.com/lenagroeger/photoshop/blob/master/screengrabs/imagemagick.gif)
+![](https://github.com/lenagroeger/gifs/blob/master/screengrabs/imagemagick.gif)
 
 6. The command is as simple as `convert *.svg lost_cause.gif`, which goes through every .svg file in my folder and combines them all into a gif called "lost_cause.gif".
-![](https://github.com/lenagroeger/photoshop/blob/master/screengrabs/lost_cause.gif)
+![](https://github.com/lenagroeger/gifs/blob/master/screengrabs/lost_cause.gif)
 
 7. Magick! If I want to slow down the gif, I can add a delay. `convert *.svg -set delay 50 lost_cause.gif`
-![](https://github.com/lenagroeger/photoshop/blob/master/screengrabs/lost_cause_slow.gif)
+![](https://github.com/lenagroeger/gifs/blob/master/screengrabs/lost_cause_slow.gif)
 
 8. That's a pretty basic usage, but go check out [all the other options](https://www.imagemagick.org/script/convert.php) to customize your gif.
 
