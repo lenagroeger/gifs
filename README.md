@@ -91,10 +91,10 @@ This tutorial will teach you how to:
 ![](https://github.com/lenagroeger/gifs/blob/master/screengrabs/imagemagick.gif)
 
 6. The command is as simple as `convert *.svg lost_cause.gif`, which goes through every .svg file in my folder and combines them all into a gif called "lost_cause.gif".
-![](https://github.com/lenagroeger/gifs/blob/master/screengrabs/lost_cause.gif)
+![](https://github.com/lenagroeger/gifs/blob/master/screengrabs/lost_cause.gif =400x)
 
 7. Magick! If I want to slow down the gif, I can add a delay. `convert *.svg -set delay 50 lost_cause.gif`
-![](https://github.com/lenagroeger/gifs/blob/master/screengrabs/lost_cause_slow.gif)
+![](https://github.com/lenagroeger/gifs/blob/master/screengrabs/lost_cause_slow.gif =400x)
 
 8. That's a pretty basic usage, but go check out [all the other options](https://www.imagemagick.org/script/convert.php) to customize your gif.
 
