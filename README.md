@@ -28,7 +28,7 @@ This tutorial will teach you how to:
 
 10. Select Gif as your save format.
 
-11. Save and you're done. Woot!<br>
+11. Save and you're done. 🎉<br>
 
 ![](https://github.com/lenagroeger/gifs/blob/master/screengrabs/ukraine.gif)
 
