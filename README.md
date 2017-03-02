@@ -26,10 +26,11 @@ This tutorial will teach you how to:
 
 9. Select **File > Save for Web**
 
-10. Select Gif as your save format.<br>
-![](https://github.com/lenagroeger/gifs/blob/master/screengrabs/ukraine.gif)
+10. Select Gif as your save format.
 
-11. Save and you're done. Woot!
+11. Save and you're done. Woot!<br>
+
+![](https://github.com/lenagroeger/gifs/blob/master/screengrabs/ukraine.gif)
 
 
 
