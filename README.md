@@ -4,11 +4,12 @@ by [Lena Groeger](https://twitter.com/lenagroeger)
 
 This tutorial will teach you how to:
 
-1. Make a [multiple-photo or series gif](https://github.com/lenagroeger/gifs#animated-gif-multiple-photo-animation) in Photoshop.
-2. Make a [video or screensharing gif](https://github.com/lenagroeger/gifs#animated-gif-video-animation) using Photoshop & Quicktime.
-3. Make a gif [from the command line](https://github.com/lenagroeger/gifs#animated-gif-command-line)
+1. Make a [multiple-photo or series gif](https://github.com/lenagroeger/gifs#animated-gifs-multiple-photo-animation) in Photoshop.
+2. Make a [video or screensharing gif](https://github.com/lenagroeger/gifs#animated-gifs-video-animation) using Photoshop & Quicktime.
+3. Make a gif [from the command line](https://github.com/lenagroeger/gifs#animated-gifs-command-line)
+4. [Other resources](https://github.com/lenagroeger/gifs#animated-gifs-other-resources)
 
-##Animated Gif: Multiple Photo Animation ##
+##Animated Gifs: Multiple Photo Animation ##
 
 1. Let's say you want to do more than animate between 2 photos, you want to show a progression of many photos, like [this example from the Wall Street Journal.](http://graphics.wsj.com/ukraine-rebel-maps/)
 2. Let's try it! [Download this folder](https://github.com/lenagroeger/photoshop/blob/master/zipped/Ukraine.zip?raw=true) and open one of the images from the Ukraine folder in Photoshop.
@@ -31,7 +32,7 @@ This tutorial will teach you how to:
 
 
 
-##Animated Gif: Video Animation ##
+##Animated Gifs: Video Animation ##
 
 
 1. Sometimes you want to convert a short segment of a video to a gif, whether that's a YouTube clip or a screen recording. You can do this easily with QuickTime + Photoshop. Let's try it out on  [this Guardian interactive on measles](http://www.theguardian.com/society/ng-interactive/2015/feb/05/-sp-watch-how-measles-outbreak-spreads-when-kids-get-vaccinated).</a>
@@ -73,14 +74,32 @@ This tutorial will teach you how to:
 ![](https://github.com/lenagroeger/photoshop/blob/master/screengrabs/measles2.gif)
 
 
-##Animated Gif: Command Line ##
+##Animated Gifs: Command Line ##
 
 1. We can also use [ImageMagick](https://www.imagemagick.org/script/index.php) to create gifs from a folder of images right on the command line.
 ![](https://github.com/lenagroeger/photoshop/blob/master/screengrabs/imagemagick.gif)
 
-2. First [install ImageMagick](https://www.imagemagick.org/script/download.php). I use `brew install ImageMagick`, but take your pick.
+2. We're going to take a bunch of SVG's from a project I worked on called [Lost Cause](http://projects.propublica.org/graphics/lost-cause), and convert a bunch of historical maps into a gif.
+![](https://github.com/lenagroeger/photoshop/blob/master/screengrabs/lost_cause_graphic.jpg)
 
-3. Then you can start using their [command line tools](https://www.imagemagick.org/script/command-line-processing.php).
 
+3. First [install ImageMagick](https://www.imagemagick.org/script/download.php). I use `brew install ImageMagick`, but take your pick.
+
+4. Then you can start using their [command line tools](https://www.imagemagick.org/script/command-line-processing.php).
+
+5. I like using the `convert` command for making gifs. Navigate to a folder full of images, in this case I have a folder called "lost_cause_svgs" on my Desktop.
+![](https://github.com/lenagroeger/photoshop/blob/master/screengrabs/imagemagick.gif)
+
+6. The command is as simple as `convert *.svg lost_cause.gif`, which goes through every .svg file in my folder and combines them all into a gif called "lost_cause.gif".
+![](https://github.com/lenagroeger/photoshop/blob/master/screengrabs/lost_cause.gif)
+
+7. Magick! If I want to slow down the gif, I can add a delay. `convert *.svg -set delay 50 lost_cause.gif`
+![](https://github.com/lenagroeger/photoshop/blob/master/screengrabs/lost_cause_slow.gif)
+
+8. That's a pretty basic usage, but go check out [all the other options](https://www.imagemagick.org/script/convert.php) to customize your gif.
+
+##Animated Gifs: Other Resources ##
+
+There may be times when Photoshop, Quicktime or the Command Line just don't do it for you. In that case, I'd check out [Noah Veltman's big list of gif-making resources](https://github.com/veltman/gifs) for alternatives. In particular, these include a bunch of ways to go directly from SVGs to GIFs.
 
 
