@@ -21,12 +21,13 @@ This tutorial will teach you how to:
 7. From the dropdown in the upper right of the Timeline window, select "Make Frames from Layers"
  ![](https://github.com/lenagroeger/gifs/blob/master/screengrabs/FramesFromLayers.png)
 
-8. Make sure your frames are in the correct sequence, then set the duration for which you'd like each to display.<br>
-  ![](https://github.com/lenagroeger/gifs/blob/master/screengrabs/SetFrameDurations.png)
+8. Make sure your frames are in the correct sequence, then set the duration for which you'd like each to display, and the number of times you'd like the animation to loop (Forever, obvs!). <br>
+![](https://github.com/lenagroeger/gifs/blob/master/screengrabs/SetFrameDurations.png)
 
 9. Select **File > Save for Web**
-10. Select Gif as your save format. At the bottom of the window, you'll also be able to set the number of times you'd like the animation to loop. For a homepage promo, it might not be appropriate to loop infinitely, but we'll pick "Forever" for now.
-  ![](https://github.com/lenagroeger/gifs/blob/master/screengrabs/ukraine.gif)
+
+10. Select Gif as your save format.
+![](https://github.com/lenagroeger/gifs/blob/master/screengrabs/ukraine.gif)
 
 11. Save and you're done. Woot!
 
