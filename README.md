@@ -82,7 +82,7 @@ This tutorial will teach you how to:
 
 2. We're going to take a bunch of SVG's from a project I worked on called [Lost Cause](http://projects.propublica.org/graphics/lost-cause), and convert a bunch of historical maps into a gif.
 
-![](https://github.com/lenagroeger/gifs/blob/master/screengrabs/lost_cause_graphic.jpg)
+<img src="https://github.com/lenagroeger/gifs/blob/master/screengrabs/lost_cause_graphic.jpg" width="680">
 
 
 3. First [install ImageMagick](https://www.imagemagick.org/script/download.php). I use `brew install ImageMagick`, but take your pick.
