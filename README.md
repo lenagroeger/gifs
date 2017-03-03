@@ -114,5 +114,5 @@ And if you need more gif-inspiration, check out these two Pinterest collections:
 
 [Data Gifs](https://www.pinterest.com/jsvine/datagifs/), by Jeremy Singer-Vine.
 
-[Explanatory Gifs](https://www.pinterest.com/lenagroeger/edugifs/)
+[Explanatory Gifs](https://www.pinterest.com/lenagroeger/edugifs/), by Noah Veltman and myself.
 
