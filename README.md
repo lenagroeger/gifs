@@ -110,6 +110,8 @@ This tutorial will teach you how to:
 
 There may be times when Photoshop, Quicktime or the Command Line just don't do it for you. In that case, I'd check out [Noah Veltman's big list of gif-making resources](https://github.com/veltman/gifs) for alternatives. In particular, these include a bunch of ways to go directly from SVGs to GIFs.
 
+Also check out [Eleanor Lutz's amazing guide](http://tabletopwhale.com/2014/11/03/how-to-make-an-animated-infographic.html) to making gifs.
+
 And if you need more gif-inspiration, check out these two Pinterest collections:
 
 [Data Gifs](https://www.pinterest.com/jsvine/datagifs/), by Jeremy Singer-Vine.
