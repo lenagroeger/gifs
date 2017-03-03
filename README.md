@@ -96,7 +96,7 @@ This tutorial will teach you how to:
 
 <img src="https://github.com/lenagroeger/gifs/blob/master/screengrabs/lost_cause.gif" width="480">
 
-7. Magick! If I want to slow down the gif, I can add a delay. `convert *.svg -set delay 50 lost_cause.gif`.
+7. Magick! If I want to slow down the gif, I can add a delay. `convert *.svg -set delay 50 lost_cause_slow.gif`.
 
 8. Once you have your gif, you can then always bring it into Photoshop and tweak it, we ended up adding a header and using this gif for our social promotion of the graphic.
 
