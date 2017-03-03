@@ -1,4 +1,4 @@
-# Data Gifs!!
+# Let's Make Some Gifs!!
 by [Lena Groeger](https://twitter.com/lenagroeger)
 
 
