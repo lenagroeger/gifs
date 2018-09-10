@@ -9,7 +9,7 @@ This tutorial will teach you how to:
 3. Make a gif [from the command line](https://github.com/lenagroeger/gifs#animated-gifs-command-line)
 4. [Other resources](https://github.com/lenagroeger/gifs#animated-gifs-other-resources)
 
-##Animated Gifs: Multiple Photo Animation ##
+## Animated Gifs: Multiple Photo Animation ##
 
 1. Let's say you want to do more than animate between 2 photos, you want to show a progression of many photos, like [this example from the Wall Street Journal.](http://graphics.wsj.com/ukraine-rebel-maps/)
 2. Let's try it! [Download this folder](https://github.com/lenagroeger/gifs/blob/master/zipped/Ukraine.zip?raw=true) and open one of the images from the Ukraine folder in Photoshop.
@@ -34,7 +34,7 @@ This tutorial will teach you how to:
 
 
 
-##Animated Gifs: Video Animation ##
+## Animated Gifs: Video Animation ##
 
 
 1. Sometimes you want to convert a short segment of a video to a gif, whether that's a YouTube clip or a screen recording. You can do this easily with QuickTime + Photoshop. Let's try it out on  [this Guardian interactive on measles](http://www.theguardian.com/society/ng-interactive/2015/feb/05/-sp-watch-how-measles-outbreak-spreads-when-kids-get-vaccinated).</a>
@@ -106,7 +106,7 @@ This tutorial will teach you how to:
  -->
 8. That's a pretty basic usage of ImageMagick's `convert`, but go check out [all the other options](https://www.imagemagick.org/script/convert.php) to customize your gif.
 
-##Animated Gifs: Other Resources ##
+## Animated Gifs: Other Resources ##
 
 There may be times when Photoshop, Quicktime or the Command Line just don't do it for you. In that case, I'd check out [Noah Veltman's big list of gif-making resources](https://github.com/veltman/gifs) for alternatives. In particular, these include a bunch of ways to go directly from SVGs to GIFs.
 
